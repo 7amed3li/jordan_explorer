@@ -17,7 +17,7 @@ class JordanExplorerApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
           seedColor: const Color(0xFFC19A6B), // لون قريب من الرمل/الصحراء
-          background: const Color(0xFFF0EBE1), // لون خلفية مريح للنظر
+          surface: const Color(0xFFF0EBE1), // لون خلفية مريح للنظر
         ),
         useMaterial3: true,
         appBarTheme: const AppBarTheme(
